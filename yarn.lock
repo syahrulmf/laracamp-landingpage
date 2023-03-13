@@ -7853,7 +7853,7 @@ react-is@^18.0.0:
 
 "react-landing-storybook@git+https://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:x-oauth-basic@github.com/syahrulmf/laracamp-storybook.git":
   version "1.0.0"
-  resolved "git+https://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:x-oauth-basic@github.com/syahrulmf/laracamp-storybook.git#8dee94e81f5caded2f188b9a927a00834cf4592c"
+  resolved "git+https://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:x-oauth-basic@github.com/syahrulmf/laracamp-storybook.git#88921f75c71b632c3968d7afd5f4bbd900dcbbbc"
   dependencies:
     "@testing-library/dom" "^9.0.0"
     "@testing-library/jest-dom" "^5.16.5"
