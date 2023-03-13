@@ -1,7 +1,10 @@
 import Hero from "components/Hero/Index";
+import Partnership from "components/Partnership";
+
 import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
+
 import Button from "react-landing-storybook/dist/components/Button";
 import Navbar from "react-landing-storybook/dist/components/Navbar";
 
@@ -53,6 +56,8 @@ export default function Home() {
         </Navbar>
 
         <Hero />
+
+        <Partnership />
       </main>
     </>
   );
