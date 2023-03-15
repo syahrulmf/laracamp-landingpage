@@ -1,6 +1,7 @@
 import Features from "components/Features";
 import Hero from "components/Hero/Index";
 import Partnership from "components/Partnership";
+import Pricing from "components/Pricing";
 
 import Head from "next/head";
 import Link from "next/link";
@@ -129,6 +130,8 @@ export default function Home() {
             text: "3.",
           }}
         />
+
+        <Pricing />
       </main>
     </>
   );
