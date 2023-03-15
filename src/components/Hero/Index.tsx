@@ -26,7 +26,7 @@ function Hero({}: Props) {
           </Button>
         </div>
 
-        <div className="relative">
+        <div className="relative max-w-full">
           <div className="absolute rounded-xl top-0 left-0 bg-white z-10 transform -translate-x-4 -translate-y-4 md:-translate-x-1/4 md:-translate-y-1/4 xl:-translate-x-1/2 xl:-translate-y-1/2 p-4 w-56">
             <span className="flex items-center gap-x-2 mb-2">
               <span className="w-5 h-5">
