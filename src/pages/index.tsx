@@ -1,3 +1,4 @@
+import Features from "components/Features";
 import Hero from "components/Hero/Index";
 import Partnership from "components/Partnership";
 
@@ -56,8 +57,8 @@ export default function Home() {
         </Navbar>
 
         <Hero />
-
         <Partnership />
+        <Features />
       </main>
     </>
   );
