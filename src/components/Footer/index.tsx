@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 type Props = {};
 
@@ -51,7 +51,7 @@ function Footer({}: Props) {
           </h2>
         </div>
 
-        <div className="flex justify-center flex-wrap -mx-5 mb-12">
+        <div className="flex justify-center flex-wrap -mx-0 xl:-mx-5 mb-12">
           {testimonials.map((item) => {
             const stars = [];
             for (let index = 0; index < item.user.stars; index++) {
@@ -77,7 +77,7 @@ function Footer({}: Props) {
                 <div className="bg-white rounded-xl p-5 flex flex-col h-full relative pb-24">
                   <ul className="flex gap-x-2 mb-5">{stars}</ul>
                   <p className="text-grey">{item.user.content}</p>
-                  <div className="absolute w-full bottom-4 flex gap-x-3">
+                  <div className="absolute w-full left-4 right-0 bottom-4 flex gap-x-3">
                     <div className="w-14 h-14 relative rounded-full overflow-hidden">
                       <Image
                         src={item.user.image}
@@ -100,7 +100,7 @@ function Footer({}: Props) {
         </div>
       </div>
 
-      <footer className="text-center text-grey pb-12 text-base">
+      <footer className="text-center text-grey pb-12 text-base px-4">
         &copy; Copyright 2023 Laracamp All Rights Reserved.
       </footer>
     </section>

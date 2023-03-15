@@ -7859,8 +7859,8 @@ react-is@^18.0.0:
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
 
 "react-landing-storybook@git+https://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:x-oauth-basic@github.com/syahrulmf/laracamp-storybook.git":
-  version "1.0.1"
-  resolved "git+https://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:x-oauth-basic@github.com/syahrulmf/laracamp-storybook.git#10ce1201907e9df3960b8f0ffb083e22a9b21f15"
+  version "1.0.2"
+  resolved "git+https://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:x-oauth-basic@github.com/syahrulmf/laracamp-storybook.git#925c9b3ae5ac2185581dd7af76342d75e591921d"
   dependencies:
     "@testing-library/dom" "^9.0.0"
     "@testing-library/jest-dom" "^5.16.5"
